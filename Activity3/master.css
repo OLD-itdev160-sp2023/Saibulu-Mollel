@@ -1,0 +1,30 @@
+body{ 
+
+    font-family:'Courier New', Courier, monospace; 
+    color:rgba(40, 107, 107, 0.459)
+} 
+
+h1 { 
+    color:#333; 
+    background-color: rgb(185, 218, 207);
+} 
+
+img{ 
+    height: 100px; 
+    text-align: left;
+} 
+
+figcaption span { 
+    font-size: .85em; 
+} 
+
+p#movie-description { 
+    margin: 20px 0 20px 0; 
+    text-align:justify;
+} 
+
+div.Review { 
+padding: 10px; 
+background-color:aliceblue; 
+margin: 20px 0 20px 0;
+}
