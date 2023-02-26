@@ -4,24 +4,27 @@
     <meta charset="UTF-8"> 
     <title>Activity 3</title> 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"> 
-    <link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
 </head>  
 <body> 
     <header> 
-        <h1>Movie Reviews</h1>
+        <h1>Movie Reviews</h1> 
+        <h2 id="greeting"></h2>
     </header> 
     <main> 
         <figure> 
-            <img src="download.jpg" alt=" Tron: Legacy"> 
+            <img src="images/download.jpg" alt=" Tron: Legacy"> 
             <figcaption> 
                 Tron Legacy - <span>A 2010 movie developed by disney that is a sequal to the original tron movie from 1982 </span>
             </figcaption>
-        </figure> 
-        <p> 
+        </figure>  
+        <p id="product-descriptoin"> 
             Sam (Garrett Hedlund), the son of famous video-game developer Kevin Flynn (Jeff Bridges), has been haunted for a long time by his father's mysterious disappearance. 
              A strange signal draws Sam to Flynn's Arcade, and he is pulled into the same cyberworld in which his father, its creator, has been trapped for 20 years.  
              With fearless warrior Quorra (Olivia Wilde), Kevin and Sam seek to escape from a universe that, while magnificent, is far more advanced and dangerous than Kevin had ever imagined.
-        </p> 
+        </p>  
+        <p>Price: $<span id="price"></span></p>
+        <p>Student Price: $<span id="studnent-price"></span></p>
 
         <h2>Audience review</h2> 
         <div class="Review"> 
@@ -43,5 +46,6 @@
     <footer> 
 
 
-    </footer>
+    </footer> 
+    <script src="js/scripts.js"></script>
 </body>
