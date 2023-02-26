@@ -1,13 +1,13 @@
 body{ 
 
-    font-family:'Courier New', Courier, monospace; 
-    background-color: lightgrey; 
-    color:black 
+    font-family: 'Times New Roman';  
+    background-color: lightgrey;
+    color: black
 } 
 
 h1 { 
-    color:#333; 
-    background-color: rgb(185, 218, 207);
+    color:#200303; 
+    background-color: rgb(6, 59, 42);
 } 
 
 img{ 
@@ -26,7 +26,7 @@ p#movie-description {
 
 div.Review { 
 padding: 10px; 
-background-color:aliceblue;  
-color:#333;
+background-color:rgb(3, 26, 46);  
+color: white;
 margin: 20px 0 20px 0;
 }
