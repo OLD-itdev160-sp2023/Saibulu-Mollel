@@ -1,0 +1,70 @@
+body{ 
+
+    font-family:'Courier New', Courier, monospace; 
+    background-color: lightgrey; 
+    color:black 
+} 
+
+header{ 
+    font-size: larger; 
+    font-style:normal
+
+}
+h1 { 
+    color:#333; 
+    background-color: rgb(185, 218, 207);
+} 
+
+img{ 
+    height: 400px; 
+    text-align: left; 
+    
+}  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+figcaption span { 
+    font-size: .85em; 
+} 
+
+p#movie-description { 
+    margin: 20px 0 20px 0; 
+    text-align:justify;
+} 
+
+div.Review { 
+padding: 10px; 
+background-color:aliceblue;  
+color:#333;
+margin: 20px 0 20px 0;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

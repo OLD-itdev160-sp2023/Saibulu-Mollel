@@ -1,0 +1,12 @@
+var d = document.getElementById("Destiny");  
+d.innerHTML = 100; 
+var W = document.getElementById("War"); 
+W.innerHTML = "free"; 
+var M = document.getElementById("Monster")
+M.innerHTML = 40; 
+var Wi = document.getElementById("Wild") 
+Wi.innerHTML = 70;
+var F = document.getElementById("Final") 
+F.innerHTML = 70;
+var G = document.getElementById("Guild") 
+G.innerHTML = 100;
